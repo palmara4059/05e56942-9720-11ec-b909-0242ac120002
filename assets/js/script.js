@@ -15,6 +15,7 @@ function postChat(e) {
     e.preventDefault();
 
     const timestamp = new Date();
+    const heure = Date().format('LT');
     const options = { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' };
 
     const chatTitre = document.getElementById("chat-titre");
