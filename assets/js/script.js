@@ -1,12 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyC18tNBDGbpqZXN9soUUPsdjZ2lkv5nzUc",
-    authDomain: "hyderium-69.firebaseapp.com",
-    databaseURL: "https://hyderium-69-default-rtdb.firebaseio.com",
-    projectId: "hyderium-69",
-    storageBucket: "hyderium-69.appspot.com",
-    messagingSenderId: "668101176548",
-    appId: "1:668101176548:web:7b7a9cd921b176d4cf10f1",
-    measurementId: "G-NWKR09TWV7"
+    apiKey: "AIzaSyAx0cx6p5NwWV6s0IQP705jhims2IzltTo",
+    authDomain: "news-hyder.firebaseapp.com",
+    databaseURL: "https://news-hyder-default-rtdb.firebaseio.com",
+    projectId: "news-hyder",
+    storageBucket: "news-hyder.appspot.com",
+    messagingSenderId: "509607434666",
+    appId: "1:509607434666:web:ccfe8a3e56d49c1beab3d3"
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database();
