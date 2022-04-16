@@ -28,7 +28,7 @@ function postChat(e) {
     chatTxt.value = "";
     db.ref("messages/" + timestamp).set({
         usr: username,
-        date: `${timestamp.toLocaleDateString(undefined, options)}`,
+        date: `${timestamp.toLocaleDateString(undefined, options)} à ${heure}`,
         titre: titre,
         msg: message,
     });
