@@ -1,12 +1,11 @@
-var firebaseConfig = {
-    apiKey: "AIzaSyC18tNBDGbpqZXN9soUUPsdjZ2lkv5nzUc",
-    authDomain: "hyderium-69.firebaseapp.com",
-    databaseURL: "https://hyderium-69-default-rtdb.firebaseio.com",
-    projectId: "hyderium-69",
-    storageBucket: "hyderium-69.appspot.com",
-    messagingSenderId: "668101176548",
-    appId: "1:668101176548:web:7b7a9cd921b176d4cf10f1",
-    measurementId: "G-NWKR09TWV7"
+const firebaseConfig = {
+  apiKey: "AIzaSyC8p9qamYfxFdwNQw30Zmb9aV4dURjG260",
+  authDomain: "test-fa739.firebaseapp.com",
+  databaseURL: "https://test-fa739-default-rtdb.firebaseio.com",
+  projectId: "test-fa739",
+  storageBucket: "test-fa739.appspot.com",
+  messagingSenderId: "200803360340",
+  appId: "1:200803360340:web:029fd77ee24616110f57c1"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
